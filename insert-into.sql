@@ -1,0 +1,1 @@
+insert into `db_vinicius`.`tbl_nomes` (`nome`) values ('Vinicius'); 
