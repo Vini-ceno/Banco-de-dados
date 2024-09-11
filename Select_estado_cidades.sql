@@ -1,0 +1,2 @@
+-- select * from `db_vinicius`.`cidade`,`db_vinicius`.`estado` where `db_vinicius`.`cidade`.`nome` like '%com%' and `db_vinicius`.`cidade`.`uf` = `db_vinicius`.`estado`.`id`;
+select `db_vinicius`.`cidade`.`nome`,`db_vinicius`.`estado`.`uf` from `db_vinicius`.`cidade`,`db_vinicius`.`estado` where `db_vinicius`.`cidade`.`nome` like '%com%' and `db_vinicius`.`cidade`.`uf` = `db_vinicius`.`estado`.`id`;
